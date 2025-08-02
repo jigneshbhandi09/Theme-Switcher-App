@@ -6,7 +6,7 @@ React + Tailwind Theme Switcher App with 3 custom themes and routing.
 This is a responsive multi-theme React + TypeScript application that allows users to switch between 3 fully customized themes.
 
 ##  Built By
-Jignesh — React Frontend Developer
+Jignesh - React Frontend Developer
 
 ---
 
