@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Pacifico Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Custom font class for Theme 3 */
+.theme3 {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Theme 1 */
+.theme1 {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+/* Theme 2 */
+.theme2 {
+  font-family: Georgia, serif;
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+body.theme1 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body.theme2 {
+  font-family: Georgia, serif;
+}
+
+body.theme3 {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease;
+}
+
+@media (max-width: 420px) {
+  .theme-dropdown-fix {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-in-out;
+}
